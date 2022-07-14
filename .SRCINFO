@@ -1,7 +1,7 @@
 pkgbase = ros-noetic-franka-ros
 	pkgdesc = A metapackage for all Franka Emika ROS packages
-	pkgver = 0.6.0
-	pkgrel = 2
+	pkgver = 0.8.0
+	pkgrel = 1
 	url = http://wiki.ros.org/franka_ros
 	arch = i686
 	arch = x86_64
@@ -39,8 +39,8 @@ pkgbase = ros-noetic-franka-ros
 	makedepends = ros-noetic-tf2-msgs
 	makedepends = ros-noetic-urdf
 	makedepends = ros-noetic-xmlrpcpp
-	source = franka_ros-0.6.0.tar.gz::https://github.com/frankaemika/franka_ros/archive/0.6.0.tar.gz
-	sha256sums = 6bfc7f743569e7491d44b82e1b9c39ace55881b7f42e4952e202e13d1e70a6b9
+	source = franka_ros-0.8.0.tar.gz::https://github.com/frankaemika/franka_ros/archive/0.8.0.tar.gz
+	sha256sums = 81dc926ca8783d5b1bc19827e7716df666902636b8101e37c977baac4ea05b2b
 
 pkgname = ros-noetic-franka-control
 	pkgdesc = franka_control provides a hardware node to control a Franka Emika research robot
@@ -136,4 +136,3 @@ pkgname = ros-noetic-franka-visualization
 	depends = ros-noetic-libfranka
 	depends = ros-noetic-franka-description
 	depends = ros-noetic-xacro
-

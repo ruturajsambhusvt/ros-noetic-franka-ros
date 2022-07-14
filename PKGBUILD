@@ -10,8 +10,8 @@ pkgname=(
     'ros-noetic-franka-ros'
     'ros-noetic-franka-visualization'
 )
-pkgver="0.6.0"
-pkgrel=2
+pkgver="0.8.0"
+pkgrel=1
 arch=('i686' 'x86_64' 'aarch64' 'armv7h' 'armv6h')
 url="http://wiki.ros.org/franka_ros"
 license=('Apache 2.0')
@@ -50,7 +50,7 @@ makedepends=(
 )
 
 source=("franka_ros-$pkgver.tar.gz::https://github.com/frankaemika/franka_ros/archive/$pkgver.tar.gz")
-sha256sums=(6bfc7f743569e7491d44b82e1b9c39ace55881b7f42e4952e202e13d1e70a6b9)
+sha256sums=(81dc926ca8783d5b1bc19827e7716df666902636b8101e37c977baac4ea05b2b)
 
 
 build() {
